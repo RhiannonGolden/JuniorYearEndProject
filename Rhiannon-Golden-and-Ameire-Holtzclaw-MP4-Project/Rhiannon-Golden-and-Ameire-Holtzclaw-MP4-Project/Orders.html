@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="components.css" rel="stylesheet" type="text/css" />
+    <!-- We need to import JQUERY Library to make the api call-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="Orders.js"></script>
+    <script src = "components.js"></script>
+
+  </head>
+
+  <body id="body" onload="initCards()">
+  <div >
+      <!--  Header or Banner -->
+    <div id="banner" class="container center">
+      <h1> Clothing Store </h1>
+    </div>
+    <div class="container subbanner">
+      
+      <nav id='nav'>
+        <a href="index.html" class="button">Home</a> <hr>
+        <a href="Clothes.html" class="button">Clothes</a> <hr>
+        <a style="background-color: lightblue; color:red;" href="Orders.html" class="button">Orders</a> <hr>
+        <a href="CustomerInformation.html" class="button">Customer Information</a>
+      </nav>
+    </div>
+
+    <div class = "title">
+      <h2>Orders</h2>
+    </div>
+    
+      <div class='searchpanel'>
+        <br>
+        
+        <div>
+          <input style="flex:2;text-align:right;" type="text" 
+            id="country" placeholder="Enter Country" >      
+          <a id="button" onclick="filter()"> Search </a><br>
+        </div>
+        
+        <br>
+
+
+
+      </div>
+
+      <div class="container">
+       
+
+        <div id='mainpanel' class="container">
+          <div id="output" class="output"></div>
+        </div>
+      </div>
+
+      <div class='foot'>
+        <br>
+            <h3>Additional Resources</h3>
+
+            <a id = "logo" href="https://www.instagram.com/alphalete/?hl=en" target="_blank"> <img style="width: 100px; length:100px;"src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"> </a>
+
+            <a id = "logo" href="https://www.facebook.com/alphaleteathletics/" target="_blank"> <img style="width: 100px; length:100px;"src="https://binghamprospector.org/wp-content/uploads/2012/10/facebook-1024x1024.png"> </a>
+
+        <a id = "logo" href="https://www.tiktok.com/@alphaleteathletics?lang=en" target="_blank"> <img style="width: 100px; length:100px;"src="https://freepnglogo.com/images/all_img/tik-tok-logo-transparent-031f.png"> </a>
+        <br>
+        <br>
+      </div>
+
+    </div>
+
+  </body>
+</html>

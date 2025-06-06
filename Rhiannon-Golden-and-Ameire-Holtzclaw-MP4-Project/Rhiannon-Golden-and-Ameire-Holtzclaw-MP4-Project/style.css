@@ -1,0 +1,219 @@
+html,body{
+  margin:0 auto;
+  font-family:Arial;
+}
+
+
+body{
+  background-color: lightgoldenrodyellow;
+}
+
+.container{
+  display:flex;
+  padding:20px;
+}
+.center{
+  justify-content:center;
+  align-items:center;
+}
+
+nav{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(139, 218, 173);
+
+}
+
+nav a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:blue;
+  background-color: rgb(139, 218, 173);
+  padding:10px;
+  flex:1;
+  text-decoration:none;
+  text-align:center;
+  border: solid 2px black;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+
+}
+nav a:hover{
+  background-color: lightblue;
+  color:black;
+}
+
+#banner{
+  /*background-color:#030316;*/
+  display-flex;
+  justify-content: center;
+  background: linear-gradient(to top left, #5b71a3 0%, #84d6e7 100%);
+  font-family: Helvetica;
+  text-justify: center;
+  box-shadow: gold;
+}
+
+.title{
+  color: darkblue;
+  font-size: 25px;
+  text-align: center;
+  font-family:courier new;
+}
+
+
+.foot{
+  font-family: Times New Roman;
+  font-size: 25px;
+  background: linear-gradient(to top left, #5b71a3 0%, #84d6e7 100%); 
+  color: black;
+  text-align: center;
+}
+
+
+
+.card{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  box-shadow:2px 2px 2px black;
+  border-radius:2px;
+  background-color: rgb(139, 218, 173);
+  align-items: center;
+  justify-content: center;
+}
+
+.card img{
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+}
+
+.highlight{
+  font-style:italic;
+  color:blue;
+}
+.heading{
+  font-weight:bold;
+}
+.card a{
+  text-decoration:none;
+  background-color:blue;
+  color:white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+}
+.card a:hover{
+  background-color:cornflowerblue;
+}
+#panel{
+  flex:1;
+}
+.fitted{
+  max-width:200px;
+  min-width:200px;
+}
+
+#output{
+  flex-wrap:wrap;
+}
+
+
+.brand{
+  justify-content: center;
+  align-items: center;
+  border: solid 2px black;
+  border-radius:4px;
+  padding:6px;
+}
+
+#mainpanel{
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#button{
+  background: blue;
+  color: white;
+  border-radius:4px;
+  padding:6px;
+  box-shadow:2px 2px 2px black;
+
+}
+
+
+#button:hover{
+  background-color:lightblue;
+}
+
+
+.pics{
+  flex:1;
+  padding: 10px;
+}
+
+.pics img{
+  max-height:400px;
+}
+
+.subbanner{
+  background-color: rgb(139, 218, 173);
+}
+
+ a{
+   text-decoration:none;
+ }
+
+#logo{
+  padding: 25px;
+}
+
+.output{
+  display:flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;  
+}
+
+.styles{
+  background: linear-gradient(to top left, #5b71a3 0%, #84d6e7 100%); 
+  border-radius: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.6);
+  
+}
+
+.inside{
+  flex:1;
+  margin:10px;
+  padding:10px;
+  border:1px solid gray;
+  text-align:center;
+  box-shadow:2px 2px 2px black;
+  border-radius:2px;
+  background-color: rgb(139, 218, 173);
+  align-items: center;
+  justify-content: center;
+}
+
+.searchpanel{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
